@@ -1187,6 +1187,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl-mediatek \
     android.hardware.audio@7.0-impl-mediatek \
     android.hardware.audio@7.1-impl-mediatek \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.thermal@2.0-impl \
@@ -1680,6 +1682,7 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert-v33 \
     libsparse-v33 \
     libtrm \
+    libui-v33 \
     libvia-ril \
     libviamipc-ril \
     libvpu \
