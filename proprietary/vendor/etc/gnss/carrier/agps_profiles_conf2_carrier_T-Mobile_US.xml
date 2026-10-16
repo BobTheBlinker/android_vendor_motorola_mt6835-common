@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mtk_agps_profiles maj_ver="1" min_ver="2">
+  <!-- Refer to agps_profiles_conf2.xml for values not provided in this file.
+       cur_supl_profile is supported but other supl_profile are ignored.
+       auto_profile_enable is not supported.
+  -->
+
+  <!-- SycamoreTMOW code for SCMTMOW-612 by luotian2 at 2026/04/02 start-->
+  <cur_supl_profile name="T-Mobile_US"
+      addr="supl.google.com"
+      port="7275"
+      tls="true"
+  />
+  <!-- SycamoreTMOW code for SCMTMOW-612 by luotian2 at 2026/04/02 end-->
+
+  <cdma_profile name="CDMA1"
+  />
+
+  <agps_setting
+    ignore_si_for_e911="true"
+  />
+
+  <gnss_setting
+  />
+
+  <cp_setting
+    reject_non911_nilr_enable="true"
+    cp_lppe_civic_enable="false"
+  />
+
+  <!-- SycamoreTMOW code for SCMTMOW-612 by luotian2 at 2026/04/02 start-->
+  <up_setting
+    imsi_enable="true"
+    up_lppe_civic_enable="false"
+    tls_version="2"
+    up_lpp_in_2g3g_disable="true"
+    up_rrlp_in_4g_disable="true"
+  />
+  <!-- SycamoreTMOW code for SCMTMOW-612 by luotian2 at 2026/04/02 end-->
+
+</mtk_agps_profiles>
