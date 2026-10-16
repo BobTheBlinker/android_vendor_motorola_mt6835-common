@@ -59,7 +59,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.boot@1.2-service-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service-v33.rc \
+    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
+    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service-v33.rc \
@@ -67,21 +69,23 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.1-service.rc \
+    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.health-service.example-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
+    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.mediatek.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
-    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
+    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/boringssl_self_test-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
-    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
+    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/dynamicdata.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dynamicdata.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
@@ -135,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
+    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vndservicemanager-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/wlan_assistant-v33.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant-v33.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
@@ -1176,7 +1181,56 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mt6835-common/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
+    android.frameworks.cameraservice.common@2.0-v33 \
+    android.frameworks.cameraservice.device@2.0-v33 \
+    android.frameworks.cameraservice.device@2.1-v33 \
+    android.frameworks.cameraservice.service@2.0-v33 \
+    android.frameworks.cameraservice.service@2.1-v33 \
+    android.frameworks.cameraservice.service@2.2-v33 \
+    android.frameworks.sensorservice@1.0-v33 \
     android.hardware.audio.common-util-v33 \
+    android.hardware.audio.common@5.0-v33 \
+    android.hardware.audio.common@6.0-util-v33 \
+    android.hardware.audio.common@6.0-v33 \
+    android.hardware.audio.common@7.0-enums-v33 \
+    android.hardware.audio.common@7.0-util-v33 \
+    android.hardware.audio.common@7.0-v33 \
+    android.hardware.audio.common@7.1-enums-v33 \
+    android.hardware.audio.common@7.1-util-v33 \
+    android.hardware.audio.effect@6.0-util-v33 \
+    android.hardware.audio.effect@6.0-v33 \
+    android.hardware.audio.effect@7.0-util-v33 \
+    android.hardware.audio.effect@7.0-v33 \
+    android.hardware.audio@6.0-v33 \
+    android.hardware.audio@7.0-util-v33 \
+    android.hardware.audio@7.0-v33 \
+    android.hardware.audio@7.1-util-v33 \
+    android.hardware.audio@7.1-v33 \
+    android.hardware.bluetooth.audio@2.0-v33 \
+    android.hardware.bluetooth.audio@2.1-v33 \
+    android.hardware.bluetooth@1.0-v33 \
+    android.hardware.bluetooth@1.1-v33 \
+    android.hardware.boot@1.0-v33 \
+    android.hardware.boot@1.1-v33 \
+    android.hardware.boot@1.2-v33 \
+    android.hardware.gatekeeper@1.0-v33 \
+    android.hardware.media.c2@1.0-v33 \
+    android.hardware.media.c2@1.1-v33 \
+    android.hardware.media.c2@1.2-v33 \
+    android.hardware.power@1.0-v33 \
+    android.hardware.radio@1.0-v33 \
+    android.hardware.radio@1.1-v33 \
+    android.hardware.sensors@1.0-v33 \
+    android.hardware.sensors@2.0-ScopedWakelock-v33 \
+    android.hardware.sensors@2.0-v33 \
+    android.hardware.sensors@2.1-v33 \
+    android.hardware.soundtrigger@2.1-v33 \
+    android.hardware.soundtrigger@2.2-v33 \
+    android.hardware.soundtrigger@2.3-v33 \
+    android.hardware.thermal@1.0-v33 \
+    android.hardware.thermal@2.0-v33 \
+    android.hidl.allocator@1.0-v33 \
+    android.media.audio.common.types-V1-cpp-v33 \
     audioclient-types-aidl-cpp-v33 \
     libGLES_meow \
     libMEOW_data \
@@ -1184,13 +1238,22 @@ PRODUCT_PACKAGES += \
     libMEOW_trace \
     libGLES_mali \
     framework-permission-aidl-cpp-v33 \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.effect@7.0-impl \
     android.hardware.audio@6.0-impl-mediatek \
     android.hardware.audio@7.0-impl-mediatek \
     android.hardware.audio@7.1-impl-mediatek \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.renderscript@1.0-impl \
+    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.thermal@1.0-impl \
     android.hardware.thermal@2.0-impl \
     audio.bluetooth.default \
+    audio.primary.default \
     audio.primary.mediatek \
     audio.r_submix.default \
     audio.r_submix.mediatek \
@@ -1198,9 +1261,11 @@ PRODUCT_PACKAGES += \
     audio_policy.stub \
     gatekeeper.beanpod \
     gps.default \
+    gralloc.default \
     id_attestation.beanpod \
     kmsetkey.beanpod \
     libSoftGatekeeper \
+    local_time.default \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
     gralloc.common \
@@ -1210,6 +1275,7 @@ PRODUCT_PACKAGES += \
     vulkan.mali \
     mtkflp.default \
     mtkgeofence.default \
+    power.default \
     sensors.dynamic_sensor_hal \
     sound_trigger.primary.default \
     thermal_hal \
@@ -1219,6 +1285,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.2-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
+    vibrator.default \
     libJpgEncPipe \
     libMtkSpeechEnh \
     libOpenCL \
@@ -1230,6 +1297,7 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libadpcmdec_mtk \
+    libaedv \
     libalacdec_mtk \
     libalsautils-v33 \
     libapmonitor_vendor \
@@ -1305,6 +1373,8 @@ PRODUCT_PACKAGES += \
     libdmshal \
     libdre \
     libdrm-v33 \
+    libeffects \
+    libeffectsconfig-v33 \
     libfgauge_gm30 \
     libfile_op \
     libflatbuffers-cpp-v33 \
@@ -1392,9 +1462,14 @@ PRODUCT_PACKAGES += \
     libpqsharememory \
     libpqtuning \
     libpqxmlparser \
+    libprotobuf-cpp-full-3.9.1-v33 \
+    libprotobuf-cpp-lite-3.9.1-v33 \
     librcs_interface \
     librcs_volte_core \
+    libreference-ril \
     librgbwlightsensor \
+    libril \
+    librilutils \
     librpc \
     librt_extamp_intf \
     libruy-v33 \
@@ -1441,6 +1516,8 @@ PRODUCT_PACKAGES += \
     libwifinvramdata \
     libwpa_client \
     libwvaidl \
+    libclearkeycasplugin \
+    libdrmclearkeyplugin \
     libmockdrmcryptoplugin \
     arm.graphics-V3-ndk \
     arm.mali.platform-V1-ndk \
@@ -1493,12 +1570,21 @@ PRODUCT_PACKAGES += \
     sc820acs_sunwin_rear_mipi_raw_IdxMgr \
     sc820cs_txd_front_mipi_raw_IdxMgr \
     shared-file-region-aidl-cpp-v33 \
+    libaudiopreprocessing \
     libaudiopreprocessing_mtk \
+    libbundlewrapper \
     libdlbvol \
+    libdownmix \
+    libdynproc \
+    libeffectproxy \
+    libhapticgenerator \
+    libldnhncr \
+    libreverbwrapper \
     libspatializer \
     libswdap \
     libswgamedap \
     libswspatializer \
+    libvisualizer \
     vendor.dolby.hardware.dms@2.0 \
     vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
@@ -1523,6 +1609,9 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.5 \
     vendor.mediatek.hardware.mms@1.6 \
     vendor.mediatek.hardware.mms@1.7 \
+    vendor.mediatek.hardware.mtkpower@1.0-v33 \
+    vendor.mediatek.hardware.mtkpower@1.1-v33 \
+    vendor.mediatek.hardware.mtkpower@1.2-v33 \
     vendor.mediatek.hardware.mtkpower_applist-V1-ndk \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
@@ -1593,7 +1682,53 @@ PRODUCT_PACKAGES += \
     APUWareApusysAidlServer \
     APUWareUtilsServer \
     android.hardware.bluetooth.audio-impl:64 \
+    android.hardware.camera.common@1.0-v33 \
+    android.hardware.camera.device@1.0-v33 \
+    android.hardware.camera.device@3.2-v33 \
+    android.hardware.camera.device@3.3-v33 \
+    android.hardware.camera.device@3.4-v33 \
+    android.hardware.camera.device@3.5-v33 \
+    android.hardware.camera.device@3.6-v33 \
+    android.hardware.camera.provider@2.4-v33 \
+    android.hardware.camera.provider@2.5-v33 \
+    android.hardware.camera.provider@2.6-v33 \
+    android.hardware.gnss.measurement_corrections@1.0-v33 \
+    android.hardware.gnss.measurement_corrections@1.1-v33 \
+    android.hardware.gnss.visibility_control@1.0-v33 \
+    android.hardware.gnss@1.0-v33 \
+    android.hardware.gnss@1.1-v33 \
+    android.hardware.gnss@2.0-v33 \
+    android.hardware.gnss@2.1-v33 \
+    android.hardware.graphics.composer@2.1-resources-v33 \
+    android.hardware.graphics.composer@2.1-v33 \
+    android.hardware.graphics.composer@2.2-resources-v33 \
+    android.hardware.graphics.composer@2.2-v33 \
+    android.hardware.graphics.composer@2.3-v33 \
+    android.hardware.graphics.composer@2.4-v33 \
+    android.hardware.light-V1-ndk-v33 \
+    android.hardware.light@2.0-v33 \
     android.hardware.power-service-mediatek \
+    android.hardware.power@1.1-v33 \
+    android.hardware.power@1.2-v33 \
+    android.hardware.radio@1.2-v33 \
+    android.hardware.secure_element@1.0-v33 \
+    android.hardware.secure_element@1.1-v33 \
+    android.hardware.secure_element@1.2-v33 \
+    android.hardware.security.keymint-V1-ndk-v33 \
+    android.hardware.tetheroffload.config@1.0-v33 \
+    android.hardware.tetheroffload.control@1.0-v33 \
+    android.hardware.tetheroffload.control@1.1-v33 \
+    android.hardware.usb.gadget@1.0-v33 \
+    android.hardware.usb.gadget@1.1-v33 \
+    android.hardware.wifi@1.0-v33 \
+    android.hardware.wifi@1.1-v33 \
+    android.hardware.wifi@1.2-v33 \
+    android.hardware.wifi@1.3-v33 \
+    android.hardware.wifi@1.4-v33 \
+    android.hardware.wifi@1.5-v33 \
+    android.hardware.wifi@1.6-v33 \
+    android.system.keystore2-V1-ndk-v33 \
+    android.system.wifi.keystore@1.0-v33 \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
@@ -1613,6 +1748,7 @@ PRODUCT_PACKAGES += \
     lib_eara_io_systracer \
     lib_eara_io_timer \
     lib_eara_io_util \
+    libbinderdebug-v33 \
     libcam.seninfn3d \
     libcamalgo.3dnr \
     libcamalgo.dngop \
@@ -1879,11 +2015,16 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.microtrust.hardware.thh@2.0 \
+    atcid.rc \
+    dmc_core.rc \
     android.hardware.boot@1.2-v33.xml \
+    android.hardware.drm-service.clearkey-v33.xml \
+    android.hardware.health-service.example-v33.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.beanpod.xml \
     android.hardware.security.secureclock-service.beanpod.xml \
     android.hardware.security.sharedsecret-service.beanpod.xml \
+    android.hardware.sensors-multihal-v33.xml \
     android.hardware.usb-aidl-service.mediatek.xml \
     android.hardware.usb.gadget-service.mediatek.xml \
     android.hardware.wifi@1.0-service.xml \
@@ -1905,6 +2046,7 @@ PRODUCT_PACKAGES += \
     vibrator-mtk-default.xml \
     atcid \
     audiocmdservice_atci \
+    awk_vendor \
     bip_ap \
     bp_id_attestation \
     bp_kmsetkey_ca \
@@ -1912,8 +2054,10 @@ PRODUCT_PACKAGES += \
     ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
+    chipinfo \
     conninfra_loader \
     dmc_core \
+    dumpsys_vendor \
     dynamicdata \
     eara_io_service \
     factory \
@@ -1928,12 +2072,15 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service.mediatek-v33 \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.boot@1.2-service \
+    android.hardware.drm-service.clearkey \
     android.hardware.drm-service.widevine \
+    android.hardware.gatekeeper@1.0-service \
     android.hardware.gnss-service.mediatek \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.composer@2.3-service \
     android.hardware.graphics.composer@2.4-service \
     android.hardware.graphics.composer@3.1-service \
+    android.hardware.health-service.example \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
@@ -1943,6 +2090,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-shim-service-mtk-lazy \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@2.0-service.beanpod \
+    android.hardware.sensors-service.multihal \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb-aidl-service.mediatekv1.0 \
     android.hardware.usb.gadget-service.mediatekv1.1 \
@@ -1970,6 +2118,7 @@ PRODUCT_PACKAGES += \
     init_thh \
     ipsec_mon \
     lbs_hidl_service \
+    logwrapper_vendor \
     make_f2fs_vendor \
     meta_tst \
     mnld \
@@ -1987,14 +2136,19 @@ PRODUCT_PACKAGES += \
     rcs_volte_stack \
     rcs_volte_stack64 \
     setsarcal \
+    sh_vendor \
     stp_dump3 \
     teei_daemon \
     thermal_core \
     thermal_intf \
+    toolbox_vendor \
     touch_boost \
+    toybox_vendor \
     uart_launcher \
     ufs-utils \
     vendor_mke2fs \
+    vndservice \
+    vndservicemanager \
     volte_clientapi_ua \
     volte_rcs_ua \
     volte_rcs_ua64 \
@@ -2012,6 +2166,186 @@ PRODUCT_PACKAGES += \
     vendor_bin_dumpfaultd \
     vendor_bin_dumpfaultd_mt6835 \
     vendor_bin_jpegtool \
+    vendor_bin_getevent \
+    vendor_bin_getprop \
+    vendor_bin_modprobe \
+    vendor_bin_setprop \
+    vendor_bin_start \
+    vendor_bin_stop \
+    vendor_bin_acpi \
+    vendor_bin_base64 \
+    vendor_bin_basename \
+    vendor_bin_blockdev \
+    vendor_bin_cal \
+    vendor_bin_cat \
+    vendor_bin_chattr \
+    vendor_bin_chcon \
+    vendor_bin_chgrp \
+    vendor_bin_chmod \
+    vendor_bin_chown \
+    vendor_bin_chroot \
+    vendor_bin_chrt \
+    vendor_bin_cksum \
+    vendor_bin_clear \
+    vendor_bin_cmp \
+    vendor_bin_comm \
+    vendor_bin_cp \
+    vendor_bin_cpio \
+    vendor_bin_cut \
+    vendor_bin_date \
+    vendor_bin_dd \
+    vendor_bin_devmem \
+    vendor_bin_df \
+    vendor_bin_diff \
+    vendor_bin_dirname \
+    vendor_bin_dmesg \
+    vendor_bin_dos2unix \
+    vendor_bin_du \
+    vendor_bin_echo \
+    vendor_bin_egrep \
+    vendor_bin_env \
+    vendor_bin_expand \
+    vendor_bin_expr \
+    vendor_bin_fallocate \
+    vendor_bin_false \
+    vendor_bin_fgrep \
+    vendor_bin_file \
+    vendor_bin_find \
+    vendor_bin_flock \
+    vendor_bin_fmt \
+    vendor_bin_free \
+    vendor_bin_fsync \
+    vendor_bin_getconf \
+    vendor_bin_getenforce \
+    vendor_bin_grep \
+    vendor_bin_groups \
+    vendor_bin_gunzip \
+    vendor_bin_gzip \
+    vendor_bin_head \
+    vendor_bin_hostname \
+    vendor_bin_hwclock \
+    vendor_bin_i2cdetect \
+    vendor_bin_i2cdump \
+    vendor_bin_i2cget \
+    vendor_bin_i2cset \
+    vendor_bin_iconv \
+    vendor_bin_id \
+    vendor_bin_ifconfig \
+    vendor_bin_inotifyd \
+    vendor_bin_insmod \
+    vendor_bin_install \
+    vendor_bin_ionice \
+    vendor_bin_iorenice \
+    vendor_bin_kill \
+    vendor_bin_killall \
+    vendor_bin_ln \
+    vendor_bin_load_policy \
+    vendor_bin_log \
+    vendor_bin_logname \
+    vendor_bin_losetup \
+    vendor_bin_ls \
+    vendor_bin_lsattr \
+    vendor_bin_lsmod \
+    vendor_bin_lsof \
+    vendor_bin_lspci \
+    vendor_bin_lsusb \
+    vendor_bin_md5sum \
+    vendor_bin_microcom \
+    vendor_bin_mkdir \
+    vendor_bin_mkfifo \
+    vendor_bin_mknod \
+    vendor_bin_mkswap \
+    vendor_bin_mktemp \
+    vendor_bin_modinfo \
+    vendor_bin_more \
+    vendor_bin_mount \
+    vendor_bin_mountpoint \
+    vendor_bin_mv \
+    vendor_bin_nc \
+    vendor_bin_netcat \
+    vendor_bin_netstat \
+    vendor_bin_nice \
+    vendor_bin_nl \
+    vendor_bin_nohup \
+    vendor_bin_nproc \
+    vendor_bin_nsenter \
+    vendor_bin_od \
+    vendor_bin_paste \
+    vendor_bin_patch \
+    vendor_bin_pgrep \
+    vendor_bin_pidof \
+    vendor_bin_pkill \
+    vendor_bin_pmap \
+    vendor_bin_printenv \
+    vendor_bin_printf \
+    vendor_bin_ps \
+    vendor_bin_pwd \
+    vendor_bin_readelf \
+    vendor_bin_readlink \
+    vendor_bin_realpath \
+    vendor_bin_renice \
+    vendor_bin_restorecon \
+    vendor_bin_rm \
+    vendor_bin_rmdir \
+    vendor_bin_rmmod \
+    vendor_bin_rtcwake \
+    vendor_bin_runcon \
+    vendor_bin_sed \
+    vendor_bin_sendevent \
+    vendor_bin_seq \
+    vendor_bin_setenforce \
+    vendor_bin_setsid \
+    vendor_bin_sha1sum \
+    vendor_bin_sha224sum \
+    vendor_bin_sha256sum \
+    vendor_bin_sha384sum \
+    vendor_bin_sha512sum \
+    vendor_bin_sleep \
+    vendor_bin_sort \
+    vendor_bin_split \
+    vendor_bin_stat \
+    vendor_bin_strings \
+    vendor_bin_stty \
+    vendor_bin_swapoff \
+    vendor_bin_swapon \
+    vendor_bin_sync \
+    vendor_bin_sysctl \
+    vendor_bin_tac \
+    vendor_bin_tail \
+    vendor_bin_tar \
+    vendor_bin_taskset \
+    vendor_bin_tee \
+    vendor_bin_test \
+    vendor_bin_time \
+    vendor_bin_timeout \
+    vendor_bin_top \
+    vendor_bin_touch \
+    vendor_bin_tr \
+    vendor_bin_true \
+    vendor_bin_truncate \
+    vendor_bin_tty \
+    vendor_bin_uclampset \
+    vendor_bin_ulimit \
+    vendor_bin_umount \
+    vendor_bin_uname \
+    vendor_bin_uniq \
+    vendor_bin_unix2dos \
+    vendor_bin_unlink \
+    vendor_bin_unshare \
+    vendor_bin_uptime \
+    vendor_bin_usleep \
+    vendor_bin_uudecode \
+    vendor_bin_uuencode \
+    vendor_bin_uuidgen \
+    vendor_bin_vmstat \
+    vendor_bin_watch \
+    vendor_bin_wc \
+    vendor_bin_which \
+    vendor_bin_whoami \
+    vendor_bin_xargs \
+    vendor_bin_xxd \
+    vendor_bin_yes \
+    vendor_bin_zcat \
     vendor_lib_egl_libGLES_mali_so \
     vendor_lib_hw_audio_primary_mt6835_so \
     vendor_lib_hw_audio_r_submix_mt6835_so \
