@@ -131,8 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/touch_boost.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/touch_boost.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
-    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
-    vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
@@ -2017,6 +2015,8 @@ PRODUCT_PACKAGES += \
     vendor.microtrust.hardware.thh@2.0 \
     atcid.rc \
     dmc_core.rc \
+    vendor.mediatek.hardware.mmagent@1.1-service.rc \
+    vendor.mediatek.hardware.mms@1.7-service.rc \
     android.hardware.boot@1.2-v33.xml \
     android.hardware.drm-service.clearkey-v33.xml \
     android.hardware.health-service.example-v33.xml \

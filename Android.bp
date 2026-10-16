@@ -29383,6 +29383,24 @@ prebuilt_etc {
     soc_specific: true,
 }
 
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mmagent@1.1-service.rc",
+    owner: "motorola",
+    src: "proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc",
+    filename_from_src: true,
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mms@1.7-service.rc",
+    owner: "motorola",
+    src: "proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc",
+    filename_from_src: true,
+    sub_dir: "init",
+    soc_specific: true,
+}
+
 prebuilt_etc_xml {
     name: "android.hardware.boot@1.2-v33.xml",
     owner: "motorola",
