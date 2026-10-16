@@ -1411,6 +1411,7 @@ PRODUCT_PACKAGES += \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libstagefright_bufferpool@2.0.1-v33 \
+    libstagefright_bufferqueue_helper-v33 \
     libstorage_otp \
     libsysenv \
     libteei_daemon_vfs \
@@ -1423,6 +1424,7 @@ PRODUCT_PACKAGES += \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
     libudf \
+    libui-v33 \
     liburee_meta_drmkeyinstall \
     libvcodec_oal \
     libvcodecdrv_header_stub \
@@ -1596,6 +1598,7 @@ PRODUCT_PACKAGES += \
     APUWareUtilsServer \
     android.hardware.bluetooth.audio-impl:64 \
     android.hardware.power-service-mediatek \
+    android.hardware.security.keymint-V2-ndk-v33 \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
@@ -1682,7 +1685,6 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert-v33 \
     libsparse-v33 \
     libtrm \
-    libui-v33 \
     libvia-ril \
     libviamipc-ril \
     libvpu \
