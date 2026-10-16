@@ -28036,6 +28036,24 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+prebuilt_etc {
+    name: "atcid.rc",
+    owner: "motorola",
+    src: "proprietary/vendor/etc/init/atcid.rc",
+    filename_from_src: true,
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "dmc_core.rc",
+    owner: "motorola",
+    src: "proprietary/vendor/etc/init/dmc_core.rc",
+    filename_from_src: true,
+    sub_dir: "init",
+    soc_specific: true,
+}
+
 prebuilt_etc_xml {
     name: "android.hardware.boot@1.2-v33.xml",
     owner: "motorola",
