@@ -1679,7 +1679,6 @@ PRODUCT_PACKAGES += \
     libvcodecdrv \
     APUWareApusysAidlServer \
     APUWareUtilsServer \
-    android.hardware.bluetooth.audio-impl:64 \
     android.hardware.camera.common@1.0-v33 \
     android.hardware.camera.device@1.0-v33 \
     android.hardware.camera.device@3.2-v33 \

@@ -19241,33 +19241,6 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     stl: "none",
-    name: "android.hardware.bluetooth.audio-impl",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "liblog",
-                "libbluetooth_audio_session_aidl",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    stl: "none",
     name: "android.hardware.camera.common@1.0-v33",
     owner: "motorola",
     strip: {
@@ -30337,7 +30310,6 @@ cc_prebuilt_binary {
                 "vendor.mediatek.hardware.audio@8.1",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2",
                 "vendor.mediatek.hardware.bluetooth.audio-impl",
-                "android.hardware.bluetooth.audio-impl",
                 "libc",
                 "libm",
                 "libdl",
