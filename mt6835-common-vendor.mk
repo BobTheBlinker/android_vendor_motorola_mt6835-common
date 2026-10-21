@@ -937,7 +937,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/permissions/android.hardware.sensor.stepdetector-v33.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector-v33.prebuilt.xml \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/permissions/android.hardware.telephony.ims-v33.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims-v33.prebuilt.xml \
-    vendor/motorola/mt6835-common/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml \
     vendor/motorola/mt6835-common/proprietary/vendor/etc/permissions/android.hardware.touchscreen.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.prebuilt.xml \
@@ -1241,8 +1240,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl-mediatek \
     android.hardware.audio@7.0-impl-mediatek \
     android.hardware.audio@7.1-impl-mediatek \
-    android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.gatekeeper@1.0-impl \
@@ -1327,8 +1324,6 @@ PRODUCT_PACKAGES += \
     libawinic_mtk_aurisys \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
-    libbluetooth_audio_session \
-    libbluetooth_audio_session_aidl \
     libbluetooth_audio_session_aidl_mediatek \
     libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \
@@ -1376,7 +1371,7 @@ PRODUCT_PACKAGES += \
     libfgauge_gm30 \
     libfile_op \
     libflatbuffers-cpp-v33 \
-    libformatter \
+    libformatter_vendor \
     libged \
     libgpu_aux \
     libgpud \
@@ -1406,6 +1401,7 @@ PRODUCT_PACKAGES += \
     libmml \
     libmmprofile \
     libmnetlink_v104 \
+    libmnl_mtk \
     libmp3dec_mtk \
     libmpbase \
     libmsbc_mtk \
@@ -1545,7 +1541,6 @@ PRODUCT_PACKAGES += \
     liblibarm_mali_config_sysprops \
     libmmagent \
     libmmlpqImpl \
-    libmnl \
     libmtk_drvb \
     libmtkcam.atmseventmgr \
     libmtkcam.eventcallback \
@@ -2384,7 +2379,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_liblibarm_mali_config_sysprops_so \
     vendor_lib_libmmagent_so \
     vendor_lib_libmmlpqImpl_so \
-    vendor_lib_libmnl_so \
     vendor_lib_libmtk_drvb_so \
     vendor_lib_libmtkcam_atmseventmgr_so \
     vendor_lib_libmtkcam_eventcallback_so \
@@ -2548,7 +2542,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_liblpcnr_so \
     vendor_lib64_libmmagent_so \
     vendor_lib64_libmmlpqImpl_so \
-    vendor_lib64_libmnl_so \
     vendor_lib64_libmsnr_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libmtkcam_atmseventmgr_so \
